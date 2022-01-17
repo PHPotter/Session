@@ -1,2 +1,2 @@
 # Template
-Template for Open Source PHP 8 Repositories
+Template for PHPotter Framework Module
