@@ -6,6 +6,7 @@ trait NativeSessionTrait
 {
     private string $id;
     private string $name;
+    private array $options;
 
     public function getId(): string
     {
@@ -35,9 +36,14 @@ trait NativeSessionTrait
     {
         session_name($this->name = $name);
     }
+
+    public function setOption(string $option, string $value): void
+    {
+        $this->options[$option] = $value;
+    }
     
     public function start(): void
     {
-        session_start();   
+        session_start($this->options);   
     }
 }
