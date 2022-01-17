@@ -1,2 +1,2 @@
-# Template
-Template for PHPotter Framework Module
+# Session
+Open Source PHP 8 Session Management

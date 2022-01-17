@@ -1,6 +1,6 @@
 {
-    "name": "potter/template",
-    "description": "Template for PHPotter Framework Module",
+    "name": "potter/session",
+    "description": "Open Source PHP 8 Session Management",
     "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
