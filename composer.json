@@ -1,6 +1,6 @@
 {
     "name": "potter/session",
-    "description": "Open Source PHP 8 Session Management",
+    "description": "Open Source PHP 8 Session Interface",
     "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
