@@ -1,0 +1,21 @@
+{
+    "name": "potter/template",
+    "description": "Template for PHPotter Framework Module",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "jay@jaypotter.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Potter\\": "Potter/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
