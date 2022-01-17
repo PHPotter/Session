@@ -9,17 +9,15 @@ trait NativeSessionTrait
 
     public function getId(): string
     {
-        if (isset($this->id)) {
+        if (isset($this->id))
             return $this->id;
-        }
         return $this->id = session_id();
     }
 
     public function getName(): string
     {
-        if (isset($this->name)) {
+        if (isset($this->name))
             return $this->name;
-        }
         return $this->name = session_name();
     }
 
