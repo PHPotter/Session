@@ -16,5 +16,7 @@ abstract class AbstractSession implements SessionInterface
 
     abstract public function setName(string $name): void;
 
+    abstract public function setOption(string $option, string $value): void;
+
     abstract public function start(): void;
 }
