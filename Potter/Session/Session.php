@@ -2,7 +2,7 @@
 
 namespace Potter\Session;
 
-class Session extends AbstractSession
+abstract class Session extends AbstractSession
 {
     use SessionTrait;
 }
