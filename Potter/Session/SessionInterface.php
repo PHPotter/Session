@@ -16,5 +16,7 @@ interface SessionInterface
 
     public function setName(string $name): void;
 
+    public function setOption(string $option, string $value): void;
+
     public function start(): void;
 }
